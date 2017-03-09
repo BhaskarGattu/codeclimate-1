@@ -1,5 +1,8 @@
 ---
 engines:
+ apexmetrics:
+    enabled: true
+		
   rubocop:
     enabled: true
   duplication:
@@ -18,6 +21,8 @@ engines:
         enabled: false
 ratings:
   paths:
+  - "**.cls"
+  - "**.trigger"
   - "**.rb"
   - "**.md"
 exclude_paths:
